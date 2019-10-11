@@ -1,14 +1,11 @@
 package com.example.myapplication;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -23,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         numbers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent num = new Intent(MainActivity.this,ShowList.class);
+                Intent num = new Intent(MainActivity.this, Numberhorizontal.class);
                 startActivity(num);
             }
         });

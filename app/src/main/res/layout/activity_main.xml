@@ -14,32 +14,17 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_margin="8dp"
-            android:text="Numbers"
+            android:text="Horizontal"
             android:background="@color/secondaryColor"/>
 
         <Button
-            android:id="@+id/family"
+            android:id="@+id/vertical"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:layout_margin="8dp"
-            android:text="famity"
+            android:text="vertical"
             android:background="@color/secondaryColor"/>
 
-        <Button
-            android:id="@+id/colors"
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:layout_margin="8dp"
-            android:text="colors"
-            android:background="@color/secondaryColor"/>
-
-        <Button
-            android:id="@+id/phrases"
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:layout_margin="8dp"
-            android:text="phrases"
-            android:background="@color/secondaryColor"/>
 
 
     </LinearLayout>
